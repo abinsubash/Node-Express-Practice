@@ -1,0 +1,26 @@
+{
+  "name": "node_app",
+  "version": "1.0.0",
+  "description": "node course package",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "nodemon script"
+  },
+  "author": "abin",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "lodash": "^4.17.21",
+    "nocache": "^4.0.0",
+    "nodemon": "^3.1.4",
+    "webpack": "^5.92.1"
+  },
+  "devDependencies": {
+    "uuid": "^10.0.0"
+  }
+}
